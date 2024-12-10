@@ -21,8 +21,10 @@ public class Personaje : MonoBehaviour
 
     void Update()
     {
+        //Cojo el input de la "A" y la "S" y lo guardo en una variable
         move = Input.GetAxis("Horizontal");
         
+        //Hago el flip del sprite dependiendo de hacia donde se mueve
         if(move > 0)
         {
             sp.flipX = false;
@@ -32,6 +34,7 @@ public class Personaje : MonoBehaviour
             sp.flipX= true;
         }
 
+        //Limito la velocidad maxima tanto en positivo como en negativo
         if (rb.linearVelocityX > maxSpeedPos)
         {
             rb.linearVelocityX = maxSpeedPos;
@@ -41,9 +44,10 @@ public class Personaje : MonoBehaviour
             rb.linearVelocityX = maxSpeedNeg;
         }
     }
-
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //Cambio el bool para saber cuando esta tocando el suelo
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
@@ -56,10 +60,13 @@ public class Personaje : MonoBehaviour
 
     void FixedUpdate()
     {
+        //Añado fuerza para mover el personaje
         if (move!=0)
         {
             rb.AddForce(Vector2.right * move * speed);
         }
+
+        //Activar la animacion de correr y desactivarla si no esta tocando el suelo
         if (move != 0 && isGrounded == true)
         {
             print("Activar animacion correr");
@@ -71,7 +78,7 @@ public class Personaje : MonoBehaviour
             //anim.SetBool("Run", false);
         }
 
-
+        //Cuando dejas de pulsar las teclas "A" y "S", cambio la velocidad para que frene antes
         if (move == 0 && isGrounded == true)
         {
             Vector2 velocity = rb.linearVelocity;
