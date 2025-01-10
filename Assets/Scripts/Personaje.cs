@@ -69,13 +69,13 @@ public class Personaje : MonoBehaviour
         //Activar la animacion de correr y desactivarla si no esta tocando el suelo
         if (move != 0 && isGrounded == true)
         {
-            print("Activar animacion correr");
-            //anim.SetBool("Run", true);
+            print("Activar animacion andar");
+            anim.SetBool("Walk", true);
         }
         else
         {
-            print("Desactivar animacion correr, activar reposo");
-            //anim.SetBool("Run", false);
+            print("Desactivar animacion andar, activar reposo");
+            anim.SetBool("Walk", false);
         }
 
         //Cuando dejas de pulsar las teclas "A" y "S", cambio la velocidad para que frene antes

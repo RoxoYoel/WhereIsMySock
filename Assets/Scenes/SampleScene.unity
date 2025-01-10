@@ -484,9 +484,9 @@ GameObject:
   - component: {fileID: 1341438036}
   - component: {fileID: 1341438038}
   - component: {fileID: 1341438033}
-  - component: {fileID: 1341438032}
   - component: {fileID: 1341438037}
   - component: {fileID: 1341438039}
+  - component: {fileID: 1341438032}
   m_Layer: 0
   m_Name: Tin
   m_TagString: Untagged
@@ -506,10 +506,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5468d071ebb7d345aa48a599cf22cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  maxSpeedPos: 6
-  maxSpeedNeg: -6
-  drag: 5
+  speed: 10
+  maxSpeedPos: 5
+  maxSpeedNeg: -5
+  drag: 8
 --- !u!50 &1341438033
 Rigidbody2D:
   serializedVersion: 5
@@ -535,7 +535,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!4 &1341438036
 Transform:
