@@ -10,6 +10,7 @@ public class Personaje : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sp;
+    public SpriteRenderer gunFlip;
     bool isGrounded;
 
     void Start()
@@ -28,10 +29,12 @@ public class Personaje : MonoBehaviour
         if(move > 0)
         {
             sp.flipX = false;
+            gunFlip.flipX = false;
         }
         else if(move < 0)
         {
             sp.flipX= true;
+            gunFlip.flipX = true;
         }
 
         //Limito la velocidad maxima tanto en positivo como en negativo
