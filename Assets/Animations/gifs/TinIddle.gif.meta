@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TinIddle_0: 4099602335539995176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
