@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b0887a92d5774544bd20c95dab9ec3a
+guid: 871ffbef3cfae2448b273bee672b1bd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6277419899345756382
-    second: PJEI_UICALCETIN_0
+      213: -3427443288308981933
+    second: boton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,8 +51,8 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 11, y: 12, z: 10, w: 9}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,59 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJEI_UICALCETIN_0
+      name: boton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 180
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 13, z: 9, w: 9}
       customData: 
-      outline: []
+      outline:
+      - - {x: 5, y: -3}
+        - {x: 5, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: -3}
+      - - {x: -6, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 16}
+        - {x: -6, y: 16}
+      - - {x: 5, y: -3}
+        - {x: 16, y: -3}
+        - {x: 16, y: 7}
+        - {x: 5, y: 7}
+      - - {x: 5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -3}
+        - {x: 5, y: -3}
+      - - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: -3}
+        - {x: -6, y: -3}
+      - - {x: -16, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: 7}
+        - {x: -16, y: 7}
+      - - {x: -16, y: -16}
+        - {x: -6, y: -16}
+        - {x: -6, y: -3}
+        - {x: -16, y: -3}
+      - - {x: -16, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: 16}
+        - {x: -16, y: 16}
+      - - {x: 5, y: 7}
+        - {x: 16, y: 7}
+        - {x: 16, y: 16}
+        - {x: 5, y: 16}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed0e876a320ed1750800000000000000
-      internalID: 6277419899345756382
+      spriteID: 35fdb881d764f60d0800000000000000
+      internalID: -3427443288308981933
       vertices: []
       indices: 
       edges: []
@@ -125,8 +161,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 3b4c112dc57bb714dbc54f334466cfb4
+    internalID: -1025746290
     vertices: []
     indices: 
     edges: []
@@ -135,7 +171,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PJEI_UICALCETIN_0: 6277419899345756382
+      boton_0: -3427443288308981933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

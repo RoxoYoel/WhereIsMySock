@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b0887a92d5774544bd20c95dab9ec3a
+guid: 4366e2db493640242bc5c06c2584d647
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6277419899345756382
-    second: PJEI_UICALCETIN_0
+      213: 6676836900533899744
+    second: teclas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJEI_UICALCETIN_0
+      name: teclas_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 320
-        height: 180
+        x: 5
+        y: 6
+        width: 23
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed0e876a320ed1750800000000000000
-      internalID: 6277419899345756382
+      spriteID: 0e11b8f19c3e8ac50800000000000000
+      internalID: 6676836900533899744
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PJEI_UICALCETIN_0: 6277419899345756382
+      teclas_0: 6676836900533899744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
