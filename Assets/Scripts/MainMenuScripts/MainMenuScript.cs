@@ -32,4 +32,9 @@ public class MainMenuScript : MonoBehaviour
         Debug.Log("La aplicación se ha cerrao.");
 
     }
+    public void SettingsBack()
+    {
+        MainMenuUI.SetActive(true);
+        SettingsUI.SetActive(false);
+    }
 }
