@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Local Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Local
+  m_TableCollectionNameGuidString: 32b02355ce7ecef4a96c30cba055481e
+  m_Entries:
+  - m_Id: 20763066368
+    m_Key: B_Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160643104768
+    m_Key: B_Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233863069696
+    m_Key: B_Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361437020160
+    m_Key: B_Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423344947200
+    m_Key: B_Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 482631434240
+    m_Key: B_Languages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 544908460032
+    m_Key: B_Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 595810533376
+    m_Key: B_Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639762644992
+    m_Key: B_Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726706372608
+    m_Key: B_Back
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8548669310476484902
+  references:
+    version: 2
+    RefIds:
+    - rid: 8548669310476484902
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1737476631576
