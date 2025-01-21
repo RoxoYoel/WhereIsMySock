@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b0887a92d5774544bd20c95dab9ec3a
+guid: e9f18ed79d63aef42844041a72d5f7b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6277419899345756382
-    second: PJEI_UICALCETIN_0
+      213: -4361551921655321666
+    second: PJEI_UICALCETINMenu_Ajustes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJEI_UICALCETIN_0
+      name: PJEI_UICALCETINMenu_Ajustes_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed0e876a320ed1750800000000000000
-      internalID: 6277419899345756382
+      spriteID: ebbef40c2a7a873c0800000000000000
+      internalID: -4361551921655321666
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PJEI_UICALCETIN_0: 6277419899345756382
+      PJEI_UICALCETINMenu_Ajustes_0: -4361551921655321666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
