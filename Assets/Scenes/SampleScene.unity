@@ -821,6 +821,7 @@ GameObject:
   - component: {fileID: 1341438033}
   - component: {fileID: 1341438037}
   - component: {fileID: 1341438039}
+  - component: {fileID: 1341438041}
   - component: {fileID: 1341438032}
   - component: {fileID: 1341438040}
   m_Layer: 0
@@ -837,7 +838,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341438031}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5468d071ebb7d345aa48a599cf22cfa, type: 3}
   m_Name: 
@@ -1030,6 +1031,22 @@ MonoBehaviour:
   - {fileID: 1703604560}
   - {fileID: 702371133}
   velocidad: 1
+--- !u!114 &1341438041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341438031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6ff23a76ba3fd4eb290d4ff9ac134c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 7
+  life: 0
+  gunFlip: {fileID: 1722531129}
 --- !u!224 &1382841100 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7285962725574942521, guid: afcc6cf8c8b1700498fbc6bdba786e21, type: 3}
@@ -1522,7 +1539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5060609064861624269, guid: afcc6cf8c8b1700498fbc6bdba786e21, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7285962725574942521, guid: afcc6cf8c8b1700498fbc6bdba786e21, type: 3}
       propertyPath: m_Pivot.x
