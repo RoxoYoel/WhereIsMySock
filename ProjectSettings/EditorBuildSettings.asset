@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Escena_Gael.unity
+    guid: fba8522d4dc66b24fa514fa4859ee62c
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 3d8da34216059864295e6154d1b4cc0d
   - enabled: 1
