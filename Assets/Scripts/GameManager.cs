@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject completeLevelUI;
     public GameObject vidasUI;
     public GameObject GameOver;
+    public GameObject pause;
 
 
 
@@ -60,6 +61,12 @@ public class GameManager : MonoBehaviour
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentScene);
+    }
+
+    public void Reanude()
+    {
+        Time.timeScale = 1;
+        pause.SetActive(false);
     }
 
     public void CompleteLevel()
