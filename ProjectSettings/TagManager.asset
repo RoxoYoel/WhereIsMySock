@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Enemy
+  - Gun
   layers:
   - Default
   - TransparentFX
@@ -39,8 +41,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 797668371
+    locked: 0
+  - name: Middleground
+    uniqueID: 852636799
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2480474241
     locked: 0
   m_RenderingLayers:
   - Default
