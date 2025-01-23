@@ -1,16 +1,40 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MainMenuScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject MainMenuUI;
+    public GameObject SettingsUI; 
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
+    }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void OpenSettings()
+    {
+        MainMenuUI.SetActive(false);
+        SettingsUI.SetActive(true);
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
+        Debug.Log("La aplicación se ha cerrao.");
+
+    }
+    public void SettingsBack()
+    {
+        MainMenuUI.SetActive(true);
+        SettingsUI.SetActive(false);
     }
 }
