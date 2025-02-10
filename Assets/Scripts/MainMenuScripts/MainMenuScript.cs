@@ -18,6 +18,8 @@ public class MainMenuScript : MonoBehaviour
     }
     public void LoadScene(string sceneName)
     {
+        MainMenuUI.SetActive(true);
+        SettingsUI.SetActive(false);
         SceneManager.LoadScene(sceneName);
     }
 
