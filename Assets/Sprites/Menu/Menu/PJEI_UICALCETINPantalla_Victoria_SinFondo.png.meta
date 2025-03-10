@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 63aa98b668cba244cb9337918dd294bd
+guid: 07981b5103a121f489f7b1b09c7953db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399574126055407315
-    second: FondoPause_0
+      213: -4575044317689962176
+    second: PJEI_UICALCETINPantalla_Victoria_SinFondo_0
+  - first:
+      213: -3622303843139490885
+    second: PJEI_UICALCETINPantalla_Victoria_SinFondo_1
+  - first:
+      213: 6227907293973209286
+    second: PJEI_UICALCETINPantalla_Victoria_SinFondo_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoPause_0
+      name: PJEI_UICALCETINPantalla_Victoria_SinFondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 35
-        width: 320
-        height: 130
+        x: 1
+        y: 85
+        width: 306
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3de38103a28419470800000000000000
-      internalID: 8399574126055407315
+      spriteID: 041ab64ce6d2280c0800000000000000
+      internalID: -4575044317689962176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJEI_UICALCETINPantalla_Victoria_SinFondo_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 50
+        width: 106
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb6321b8ddfabdc0800000000000000
+      internalID: -3622303843139490885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PJEI_UICALCETINPantalla_Victoria_SinFondo_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0665fdfa8fd6650800000000000000
+      internalID: 6227907293973209286
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FondoPause_0: 8399574126055407315
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

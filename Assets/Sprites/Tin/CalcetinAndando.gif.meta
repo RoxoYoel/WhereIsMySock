@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63aa98b668cba244cb9337918dd294bd
+guid: 11def7974d0028041bb85435f14627e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399574126055407315
-    second: FondoPause_0
+      213: -1973990350417413345
+    second: CalcetinAndando_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoPause_0
+      name: CalcetinAndando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 35
-        width: 320
-        height: 130
+        x: 11
+        y: 15
+        width: 44
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3de38103a28419470800000000000000
-      internalID: 8399574126055407315
+      spriteID: f1b32552c3afa94e0800000000000000
+      internalID: -1973990350417413345
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FondoPause_0: 8399574126055407315
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
