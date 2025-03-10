@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63aa98b668cba244cb9337918dd294bd
+guid: bdb116d5f5a160c4ea8f601e7d4d91a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399574126055407315
-    second: FondoPause_0
+      213: -698339978538720632
+    second: PJEI_UICALCETINPartidas_Guardada_Cerca_SinFondo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoPause_0
+      name: PJEI_UICALCETINPartidas_Guardada_Cerca_SinFondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 35
-        width: 320
-        height: 130
+        x: 29
+        y: 16
+        width: 276
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3de38103a28419470800000000000000
-      internalID: 8399574126055407315
+      spriteID: 882eebe4d7ffe46f0800000000000000
+      internalID: -698339978538720632
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FondoPause_0: 8399574126055407315
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
