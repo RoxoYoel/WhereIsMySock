@@ -55,6 +55,10 @@ MonoBehaviour:
     m_Key: B_Back
     m_Metadata:
       m_Items: []
+  - m_Id: 17751049478815744
+    m_Key: B_SFX
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

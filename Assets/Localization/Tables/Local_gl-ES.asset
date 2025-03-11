@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 361437020160
-    m_Localized: Volumen
+    m_Localized: Musica
     m_Metadata:
       m_Items: []
   - m_Id: 423344947200
@@ -56,6 +56,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 726706372608
     m_Localized: Atras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17751049478815744
+    m_Localized: Efectos de sonido
     m_Metadata:
       m_Items: []
   references:
