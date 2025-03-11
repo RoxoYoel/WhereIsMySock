@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PJEI_UICALCETINPantalla_Derrota_SinFondo_0: -4163976936014058398
+      PJEI_UICALCETINPantalla_Derrota_SinFondo_1: -5483652689022218292
+      PJEI_UICALCETINPantalla_Derrota_SinFondo_2: -2231480566622925893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

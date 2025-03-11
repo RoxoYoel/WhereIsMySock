@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PJEI_UICALCETINPartidas_Guardada_Cerca_SinFondo_0: -698339978538720632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PJEI_UICALCETINPantalla_Victoria_SinFondo_0: -4575044317689962176
+      PJEI_UICALCETINPantalla_Victoria_SinFondo_1: -3622303843139490885
+      PJEI_UICALCETINPantalla_Victoria_SinFondo_2: 6227907293973209286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

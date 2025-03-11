@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ProtaCalcetin2IdleAnimatioon_0: 1837075379818138871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
