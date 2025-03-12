@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ef107126f8ba922459ed1bdb12151569
+guid: 5354f16986f7dd740b22d22c427ad4bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5222549041092767954
-    second: Tin_Walk07_0
+      213: -3059798199755787609
+    second: Tin_InAir02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tin_Walk07_0
+      name: Tin_InAir02_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 32
-        height: 31
+        width: 31
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d03460cea83a7840800000000000000
-      internalID: 5222549041092767954
+      spriteID: 7a23d23bfb96985d0800000000000000
+      internalID: -3059798199755787609
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tin_Walk07_0: 5222549041092767954
+      Tin_InAir02_0: -3059798199755787609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

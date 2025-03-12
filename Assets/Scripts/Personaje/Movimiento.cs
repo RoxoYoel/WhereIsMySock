@@ -55,9 +55,10 @@ public class Movimiento : MonoBehaviour
         {
 
             print("pulsa espacio");
-            //anim.SetTrigger("Jump");
-            jump = true;
+            anim.SetTrigger("Jump");
+            anim.SetBool("Ground", false);
             isGround = false;
+            Invoke("Jump", 0.1f);
         }
 
         //Activamos la animacion de andar
@@ -84,6 +85,7 @@ public class Movimiento : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
+            anim.SetBool("Ground", true);
         }
 
         if (collision.gameObject.CompareTag("Enemy") && invulnerable == false)
@@ -93,5 +95,10 @@ public class Movimiento : MonoBehaviour
             print(life);
             Invoke("Hurt", 0);
         }
+    }
+
+    public void Jump()
+    {
+        jump = true;
     }
 }
