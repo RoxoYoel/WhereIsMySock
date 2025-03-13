@@ -43,26 +43,25 @@ public class Movimiento : MonoBehaviour
         //Cambio la velocidad para que corra al pulsar shift
         if (Input.GetKey(KeyCode.LeftShift) && isGround)
         {
-            speed = 8;
+            speed = 6;
+            anim.SetFloat("Walk", 2);
         }
         else
         {
-            speed = 5;
+            speed = 4;
+            //Activamos la animacion de andar
+            anim.SetFloat("Walk", move);
         }
 
         //Si pulsa la tecal espacio cambio el bool a true para añadirle la fuerza en el fixedUpdate
         if (Input.GetKeyDown("space") && isGround)
         {
-
             print("pulsa espacio");
             anim.SetTrigger("Jump");
             anim.SetBool("Ground", false);
             isGround = false;
-            Invoke("Jump", 0.1f);
+            Invoke("Jump", 0.3f);
         }
-
-        //Activamos la animacion de andar
-        anim.SetFloat("Walk", move);
     }
 
     void FixedUpdate()
@@ -88,17 +87,23 @@ public class Movimiento : MonoBehaviour
             anim.SetBool("Ground", true);
         }
 
-        if (collision.gameObject.CompareTag("Enemy") && invulnerable == false)
+        if (collision.gameObject.CompareTag("Enemigo") && invulnerable == false)
         {
             life--;
             invulnerable = true;
+            anim.SetTrigger("Hurt");
             print(life);
-            Invoke("Hurt", 0);
+            Invoke("Hurt", 2);
         }
     }
 
     public void Jump()
     {
         jump = true;
+    }
+
+    public void Hurt()
+    {
+        invulnerable = false;
     }
 }
