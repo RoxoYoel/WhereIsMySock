@@ -40,11 +40,11 @@ public class GameManager : MonoBehaviour
     public void Chocar()
     {
         lives--;
-
         print(lives);
-
         //ENLAZAR QUE CHOCO CON PERDER UNA VIDA EN LA UI
-        vidasUI.GetComponent<CanvasUI>().setActiveSprite(GameManager.lives);
+        //vidasUI.GetComponent<CanvasUI>().setActiveSprite(GameManager.lives);
+        Time.timeScale = 0.5f;
+        Invoke("Reanude", 1f);
 
         if (lives <= 0)
         {

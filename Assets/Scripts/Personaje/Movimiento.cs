@@ -5,7 +5,6 @@ public class Movimiento : MonoBehaviour
     float move;
     public int speed;
     public int jumpForce;
-    public int life;
 
     bool isGround;
     bool jump = false;
@@ -56,11 +55,10 @@ public class Movimiento : MonoBehaviour
         //Si pulsa la tecal espacio cambio el bool a true para añadirle la fuerza en el fixedUpdate
         if (Input.GetKeyDown("space") && isGround)
         {
-            print("pulsa espacio");
             anim.SetTrigger("Jump");
             anim.SetBool("Ground", false);
             isGround = false;
-            Invoke("Jump", 0.3f);
+            jump = true;
         }
     }
 
@@ -72,7 +70,6 @@ public class Movimiento : MonoBehaviour
         //Añado la fuerza del salto
         if (jump )
         {
-            print("salta");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             jump = false;
         }
@@ -86,24 +83,18 @@ public class Movimiento : MonoBehaviour
             isGround = true;
             anim.SetBool("Ground", true);
         }
+    }
 
-        if (collision.gameObject.CompareTag("Enemigo") && invulnerable == false)
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            life--;
-            invulnerable = true;
-            anim.SetTrigger("Hurt");
-            print(life);
-            Invoke("Hurt", 2);
+            Invoke("InAir", 0.1f);
         }
     }
 
-    public void Jump()
+    public void InAir()
     {
-        jump = true;
-    }
-
-    public void Hurt()
-    {
-        invulnerable = false;
+        isGround = false;
     }
 }
