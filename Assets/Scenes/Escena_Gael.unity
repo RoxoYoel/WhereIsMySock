@@ -901,7 +901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.4, y: 36.3}
+  m_AnchoredPosition: {x: -10.400024, y: 36.299988}
   m_SizeDelta: {x: -216.7, y: -137.254}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449205043
@@ -2131,6 +2131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7644822926278b346bc69e374f785a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPool: {fileID: 0}
 --- !u!1 &1397804133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,6 +2368,8 @@ GameObject:
   - component: {fileID: 1554011476}
   - component: {fileID: 1554011478}
   - component: {fileID: 1554011477}
+  - component: {fileID: 1554011480}
+  - component: {fileID: 1554011479}
   m_Layer: 0
   m_Name: Tin
   m_TagString: Untagged
@@ -2553,6 +2556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 1114295815}
+  invul: {fileID: 0}
+  pushForce: 2
 --- !u!114 &1554011477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2573,15 +2578,44 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554011468}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e6ff23a76ba3fd4eb290d4ff9ac134c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 8
-  life: 0
   gunFlip: {fileID: 1275844331}
+  bulletPoll: {fileID: 0}
+--- !u!114 &1554011479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554011468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fc1bcc5d61e1541905b426eeb26781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 8
+  isGround: 0
+--- !u!114 &1554011480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554011468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8d8b8220057504aa19f594067355d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  gunFlip: {fileID: 1275844331}
+  bulletPoll: {fileID: 0}
 --- !u!1 &1718809097
 GameObject:
   m_ObjectHideFlags: 0

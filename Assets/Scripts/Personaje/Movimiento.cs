@@ -26,15 +26,27 @@ public class Movimiento : MonoBehaviour
 
     private void Update()
     {
-        //Cojo el input de la "A" y la "S" y lo guardo en una variable
+        // Obtiene el input antes de actualizar animaciones
         move = Input.GetAxis("Horizontal");
 
-        //Hago el flip del sprite dependiendo de hacia donde se mueve
+        // Cambio de velocidad al pulsar shift
+        if (Input.GetKey(KeyCode.LeftShift) && isGround)
+        {
+            speed = 6;
+            anim.SetFloat("Walk", 2);
+        }
+        else
+        {
+            speed = 4;
+            anim.SetFloat("Walk", Mathf.Abs(move)); // Usamos Abs para evitar valores negativos en la animaciÃ³n
+        }
+
+        // Flip del sprite
         if (move > 0)
         {
             sp.flipX = false;
             gunFlip.flipX = false;
-            bulletPoll.transform.localPosition = new Vector2(1,0);
+            bulletPoll.transform.localPosition = new Vector2(1, 0);
             bulletPoll.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (move < 0)
@@ -45,49 +57,37 @@ public class Movimiento : MonoBehaviour
             bulletPoll.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
 
-        //Cambio la velocidad para que corra al pulsar shift
-        if (Input.GetKey(KeyCode.LeftShift) && isGround)
-        {
-            speed = 6;
-            anim.SetFloat("Walk", 2);
-        }
-        else
-        {
-            speed = 4;
-            //Activamos la animacion de andar
-            anim.SetFloat("Walk", move);
-        }
-
-        //Si pulsa la tecal espacio cambio el bool a true para añadirle la fuerza en el fixedUpdate
+        // Salto
         if (Input.GetKeyDown("space") && isGround)
         {
             anim.SetTrigger("Jump");
             anim.SetBool("Ground", false);
-            isGround = false;
-            jump = true;
+            jump = true; // Se procesa en FixedUpdate()
         }
     }
 
     void FixedUpdate()
     {
-        //Añado fuerza para mover el personaje
+        // Movimiento
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
-        //Añado la fuerza del salto
-        if (jump )
+        // Salto
+        if (jump)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isGround = false; // Se desactiva solo despuÃ©s de aplicar la fuerza
             jump = false;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Cambio el bool para saber cuando esta tocando el suelo
+        // Detecta cuando toca el suelo
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
             anim.SetBool("Ground", true);
+            CancelInvoke("InAir"); // Cancelamos el Invoke que podrÃ­a desactivar isGround antes de tiempo
         }
     }
 
