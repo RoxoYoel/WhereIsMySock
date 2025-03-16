@@ -2362,14 +2362,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1554011475}
   - component: {fileID: 1554011474}
+  - component: {fileID: 1554011476}
+  - component: {fileID: 1554011477}
+  - component: {fileID: 1554011480}
+  - component: {fileID: 1554011481}
   - component: {fileID: 1554011473}
   - component: {fileID: 1554011472}
   - component: {fileID: 1554011471}
-  - component: {fileID: 1554011476}
-  - component: {fileID: 1554011478}
-  - component: {fileID: 1554011477}
-  - component: {fileID: 1554011480}
-  - component: {fileID: 1554011479}
   m_Layer: 0
   m_Name: Tin
   m_TagString: Untagged
@@ -2571,36 +2570,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 1275844330}
---- !u!114 &1554011478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554011468}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e6ff23a76ba3fd4eb290d4ff9ac134c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 8
-  gunFlip: {fileID: 1275844331}
-  bulletPoll: {fileID: 0}
---- !u!114 &1554011479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554011468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24fc1bcc5d61e1541905b426eeb26781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 8
-  isGround: 0
 --- !u!114 &1554011480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,6 +2585,22 @@ MonoBehaviour:
   speed: 5
   gunFlip: {fileID: 1275844331}
   bulletPoll: {fileID: 0}
+--- !u!114 &1554011481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554011468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fc1bcc5d61e1541905b426eeb26781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 8
+  isGround: 0
+  jumpAttackForce: 9
+  jumpAttack: 0
 --- !u!1 &1718809097
 GameObject:
   m_ObjectHideFlags: 0

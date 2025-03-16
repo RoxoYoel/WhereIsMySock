@@ -1,9 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class JumpController : MonoBehaviour
 {
     public int jumpForce;
     public bool isGround;
+    public int jumpAttackForce;
+    public bool jumpAttack;
 
     private bool jump = false;
     private Rigidbody2D rb;
@@ -15,8 +18,17 @@ public class JumpController : MonoBehaviour
         anim = GetComponent<Animator>();  // Referencia al Animator
     }
 
+    public void JumpAttack()
+    {
+        if (isGround == false && Input.GetKey(KeyCode.S) && jumpAttack == false)
+        {
+            rb.AddForce(Vector2.down *  jumpAttackForce, ForceMode2D.Impulse);
+            jumpAttack = true;
+        }
+    }
     void Update()
     {
+        JumpAttack();
         // Salto
         if (Input.GetKeyDown("space") && isGround)
         {
@@ -50,6 +62,7 @@ public class JumpController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            jumpAttack = false;
             isGround = false;
             anim.SetBool("Ground", false);  // Actualiza el booleano en el Animator
         }
