@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    float move;
+    public float move;
     public int speed;
 
     Rigidbody2D rb;
@@ -10,7 +10,6 @@ public class Move : MonoBehaviour
     SpriteRenderer sp;
     public SpriteRenderer gunFlip;
     public GameObject bulletPoll;
-
     private JumpController jumpController;
 
     void Start()

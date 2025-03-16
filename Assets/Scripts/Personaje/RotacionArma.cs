@@ -2,21 +2,34 @@ using UnityEngine;
 
 public class AimAtMouseY : MonoBehaviour
 {
+    public Move movement;
+    private float rotationSpeed = 1000f; // Velocidad de rotación
+    SpriteRenderer sp;
+
+    private void Start()
+    {
+        sp = GetComponent<SpriteRenderer>();
+    }
     void Update()
     {
-        // Obtener la posición del ratón en el mundo
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Obtener el valor del movimiento vertical del ratón (-1 a 1)
+        float mouseInputY = Input.GetAxis("Mouse Y");
 
-        // Fijar la posición Z del ratón para que no se mueva en ese eje (solo usamos X e Y)
-        mousePosition.z = transform.position.z;
+        // Si el personaje se mueve a la izquierda, invertir el control
+        if (sp.flipX == true)
+        {
+            mouseInputY = -mouseInputY;
+        }
+        if (sp.flipX == false)
+        {
+            mouseInputY = +mouseInputY;
+        }
 
-        // Calcular la dirección del ratón respecto al personaje
-        Vector3 direction = mousePosition - transform.position;
+        // Calcular el ángulo de rotación basado en la entrada del ratón
+        float angle = mouseInputY * rotationSpeed * Time.deltaTime;
 
-        // Calcular el ángulo en el que el objeto debe rotar (en grados)
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-        // Establecer la rotación en el eje Z
-        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        // Aplicar la rotación en el eje Z
+        transform.Rotate(0, 0, angle);
     }
+
 }
