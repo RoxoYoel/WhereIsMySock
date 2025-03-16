@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
+    public GameObject bulletPool; // Referencia al pool de balas
     Animator anim;
-    public GameObject bulletPool;
     float secondsCounter = 0;
     float secondsToCount = 0.9f;
 
@@ -12,13 +12,11 @@ public class Shoot : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    
     void Update()
     {
         secondsCounter += Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
-            print("click");
             if (secondsCounter >= secondsToCount)
             {
                 anim.SetTrigger("Shoot");
@@ -30,6 +28,6 @@ public class Shoot : MonoBehaviour
     public void Disparar()
     {
         secondsCounter = 0;
-        bulletPool.GetComponent<BulletPool>().ShootBullet();
+        bulletPool.GetComponent<BulletPool>().ShootBullet(); // Aquí usamos el pool de balas
     }
 }

@@ -9,7 +9,7 @@ public class Move : MonoBehaviour
     Animator anim;
     SpriteRenderer sp;
     public SpriteRenderer gunFlip;
-    public GameObject bulletPoll;
+
     private JumpController jumpController;
 
     void Start()
@@ -35,23 +35,19 @@ public class Move : MonoBehaviour
         else
         {
             speed = 4;
-            anim.SetFloat("Walk", Mathf.Abs(move)); // Usamos Abs para evitar valores negativos en la animaci�n
+            anim.SetFloat("Walk", Mathf.Abs(move)); // Usamos Abs para evitar valores negativos en la animación
         }
 
-        // Flip del sprite
+        // Flip del sprite solo para el personaje, no afecta al `bulletPoll`
         if (move > 0)
         {
             sp.flipX = false;
             gunFlip.flipX = false;
-            bulletPoll.transform.localPosition = new Vector2(1, 0);
-            bulletPoll.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (move < 0)
         {
             sp.flipX = true;
             gunFlip.flipX = true;
-            bulletPoll.transform.localPosition = new Vector2(-1, 0);
-            bulletPoll.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
     }
 
@@ -61,4 +57,3 @@ public class Move : MonoBehaviour
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }
 }
-
