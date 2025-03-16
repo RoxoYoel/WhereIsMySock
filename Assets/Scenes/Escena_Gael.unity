@@ -2255,6 +2255,7 @@ GameObject:
   - component: {fileID: 1275844333}
   - component: {fileID: 1275844331}
   - component: {fileID: 1275844332}
+  - component: {fileID: 1275844335}
   - component: {fileID: 1275844334}
   m_Layer: 0
   m_Name: Gun
@@ -2309,7 +2310,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 4126eb0115ab6a646969a251ff5d5c09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -2368,6 +2369,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPool: {fileID: 0}
+--- !u!114 &1275844335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275844330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba788a8a6b6113b4da8e8fdce40b68bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397804133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2770,7 +2783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554011468}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.17, y: -0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2819,7 +2832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  gunFlip: {fileID: 1275844331}
+  gunFlip: {fileID: 0}
   bulletPoll: {fileID: 0}
 --- !u!114 &1554011481
 MonoBehaviour:
