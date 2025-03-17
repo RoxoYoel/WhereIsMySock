@@ -9,7 +9,6 @@ public class Move : MonoBehaviour
     Animator anim;
     SpriteRenderer sp;
     public SpriteRenderer gunFlip;
-
     private JumpController jumpController;
 
     void Start()
@@ -49,6 +48,7 @@ public class Move : MonoBehaviour
             sp.flipX = true;
             gunFlip.flipX = true;
         }
+
     }
 
     void FixedUpdate()
