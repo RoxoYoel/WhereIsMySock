@@ -9,6 +9,7 @@ TagManager:
   - Enemigo
   - Death
   - Checkpoint
+  - Bala
   layers:
   - Default
   - TransparentFX

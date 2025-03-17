@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public GameObject bulletPool; // Referencia al pool de balas
+    public BulletPool bulletPool; // Referencia al pool de balas
+    public Items items; // Referencia al script Items para acceder al contador de balas
     Animator anim;
     float secondsCounter = 0;
     float secondsToCount = 0.9f;
@@ -17,10 +18,11 @@ public class Shoot : MonoBehaviour
         secondsCounter += Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
-            if (secondsCounter >= secondsToCount)
+            if (secondsCounter >= secondsToCount && items.bulletCount > 0) // Solo disparar si hay balas
             {
                 anim.SetTrigger("Shoot");
                 Invoke("Disparar", 0.1f);
+                items.bulletCount--; // Gastar una bala
             }
         }
     }
@@ -28,6 +30,6 @@ public class Shoot : MonoBehaviour
     public void Disparar()
     {
         secondsCounter = 0;
-        bulletPool.GetComponent<BulletPool>().ShootBullet(); // Aquí usamos el pool de balas
+        bulletPool.ShootBullet(); // Llamamos directamente al método del pool de balas
     }
 }
