@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd0401879369ee049969c6bea826697f
+guid: 69121460984775f4bbc7c6b7bee55ca2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5408359590234338870
-    second: Gun_Shoot07_0
+      213: -3380712865217011313
+    second: Tin_GPTouch03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0, y: 0.5}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gun_Shoot07_0
+      name: Tin_GPTouch03_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
-        width: 29
-        height: 17
+        x: 2
+        y: 0
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac9418e7b95a1f4b0800000000000000
-      internalID: -5408359590234338870
+      spriteID: f81a5259f8b4511d0800000000000000
+      internalID: -3380712865217011313
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gun_Shoot07_0: -5408359590234338870
+      Tin_GPTouch03_0: -3380712865217011313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1fa5e5663029f4f44abfa8cfd5cb4fcc
+guid: 4c23c465c27fac64cab2f5df17153051
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -359498928678090696
-    second: Gun_Shoot06_0
+      213: 6337521242222450422
+    second: Gun_Recargar01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0, y: 0.5}
+  alignment: 4
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gun_Shoot06_0
+      name: Gun_Recargar01_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 29
+        y: 3
+        width: 30
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 838420b01adc20bf0800000000000000
-      internalID: -359498928678090696
+      spriteID: 6f6592ffdf563f750800000000000000
+      internalID: 6337521242222450422
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gun_Shoot06_0: -359498928678090696
+      Gun_Recargar01_0: 6337521242222450422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
