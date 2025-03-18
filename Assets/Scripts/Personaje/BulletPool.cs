@@ -28,7 +28,8 @@ public class BulletPool : MonoBehaviour
     {
         z = gun.transform.rotation.z;
         y = transform.rotation.y;
-        print(y);
+        print(z);
+        
     }
 
     public void ShootBullet()
@@ -41,8 +42,9 @@ public class BulletPool : MonoBehaviour
 
         bullets[shootNumber].SetActive(false); // Desactivar antes de cambiar posición y rotación
         bullets[shootNumber].transform.position = transform.position; // Disparo desde la posición del personaje
-        //bullets[shootNumber].transform.rotation = gun.transform.rotation;
-        //bullets[shootNumber].transform.rotation = Quaternion // Asegúrate de que la rotación esté correcta
+        bullets[shootNumber].transform.rotation = gun.transform.rotation;
+        //bullets[shootNumber].transform.position = transform.localScale;
+        //bullets[shootNumber].transform.rotation = Quaternion.Euler(0, y, z); // Asegúrate de que la rotación esté correcta
         bullets[shootNumber].SetActive(true); // Activar la bala
     }
 }

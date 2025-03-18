@@ -43,15 +43,17 @@ public class Move : MonoBehaviour
         {
             sp.flipX = false;
             gunFlip.flipX = false;
-            bulletPoll.transform.localPosition = new Vector2(1, 0);
-            bulletPoll.transform.rotation = Quaternion.Euler(0, 0, bulletPoll.transform.rotation.z);
+            bulletPoll.transform.localPosition = new Vector2(1.5f, 0);
+            bulletPoll.transform.localScale = new Vector2(1,1);
+            //bulletPoll.transform.rotation = Quaternion.Euler(0, 0, bulletPoll.transform.rotation.z);
         }
         else if (move < 0)
         {
             sp.flipX = true;
             gunFlip.flipX = true;
-            bulletPoll.transform.localPosition = new Vector2(-1, 0);
-            bulletPoll.transform.rotation = Quaternion.Euler(0, 180, bulletPoll.transform.rotation.z);
+            bulletPoll.transform.localPosition = new Vector2(-1.5f, 0);
+            bulletPoll.transform.localScale = new Vector2(-1, 1);
+            //bulletPoll.transform.rotation = Quaternion.Euler(0, 180, bulletPoll.transform.rotation.z);
         }
 
     }

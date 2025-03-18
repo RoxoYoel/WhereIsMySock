@@ -228,6 +228,7 @@ MonoBehaviour:
   bulletPoolSize: 5
   bulletPrefab: {fileID: 0}
   shootNumber: -1
+  gun: {fileID: 0}
 --- !u!1 &8545228200749966002
 GameObject:
   m_ObjectHideFlags: 0
