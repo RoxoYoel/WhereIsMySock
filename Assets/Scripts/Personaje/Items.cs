@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Items : MonoBehaviour
 {
@@ -12,22 +13,23 @@ public class Items : MonoBehaviour
             gun.SetActive(true);
             collision.gameObject.SetActive(false);
         }
-        else if (collision.gameObject.CompareTag("Bala"))
+        
+        if (collision.gameObject.CompareTag("Municion"))
         {
             // Desactivar el objeto inmediatamente para evitar doble detección
             collision.gameObject.SetActive(false);
-
             // Obtener el componente "BalaPickup" para saber cuántas balas dar
             BalaPickup balaPickup = collision.gameObject.GetComponent<BalaPickup>();
-            if (balaPickup != null)
+
+            if (bulletCount >= 0)
             {
-                bulletCount += balaPickup.cantidadDeBalas; // Añadir las balas especificadas
-                Debug.Log("Balas recogidas: " + balaPickup.cantidadDeBalas + ". Balas totales: " + bulletCount);
-            }
-            else
-            {
-                Debug.LogWarning("El objeto con tag 'Bala' no tiene el componente BalaPickup.");
-            }
+                
+                if (balaPickup != null)
+                {
+                    bulletCount += balaPickup.cantidadDeBalas; // Añadir las balas especificadas
+                    Debug.Log("Balas recogidas: " + balaPickup.cantidadDeBalas + ". Balas totales: " + bulletCount);
+                }
+            }  
         }
     }
 }

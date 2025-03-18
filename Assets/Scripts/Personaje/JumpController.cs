@@ -24,6 +24,7 @@ public class JumpController : MonoBehaviour
         {
             rb.AddForce(Vector2.down *  jumpAttackForce, ForceMode2D.Impulse);
             jumpAttack = true;
+            anim.SetTrigger("GroundPound");
         }
     }
     void Update()

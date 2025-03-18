@@ -5,25 +5,25 @@ public class CanvasUI : MonoBehaviour
 {
     [SerializeField] Image vidasImage;
     [SerializeField] Sprite[] vidasSprite;
-
+    public GameManager GameManager;
     void Start()
     {
-        //vidasImage.sprite = vidasSprite[2];
+        if (GameManager != null)
+        {
+            vidasImage.sprite = vidasSprite[GameManager.lives - 1];
+        }
     }
 
     public void setActiveSprite(int spriteindex)
     {
-        if (vidasSprite.Length >= spriteindex && spriteindex > 0)
+        if (spriteindex > 0 && spriteindex <= vidasSprite.Length)
         {
-            vidasImage.sprite = vidasSprite[spriteindex -1];
-
-            //CREAR EL COLOR BLANCO ES LO MISMO QUE DECIR QUE SÍ QUE VEMOS
-            vidasImage.color = Color.white;
+            vidasImage.sprite = vidasSprite[spriteindex - 1];
+            vidasImage.color = Color.white; // Mostrar el sprite
         }
         else
         {
-            //OCULTA EL SPRITE
-            vidasImage.color= Color.clear;
+            vidasImage.color = Color.clear; // Ocultar el sprite si no hay vidas
         }
     }
 }
