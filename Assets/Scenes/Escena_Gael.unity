@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8605094015612457944, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
   m_PrefabInstance: {fileID: 2136866175}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 817193237}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8168bc6bbad51ab48b7dc89150d084ac, type: 3}
@@ -1386,7 +1386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7df826ceabcda46b721b295691fd33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadDeBalas: 5
+  cantidadDeBalas: 100
 --- !u!1 &785075376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,7 +1540,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1556,6 +1556,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.78}
   m_EdgeRadius: 0
+--- !u!1 &817193237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6178437712133801489, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
+  m_PrefabInstance: {fileID: 2136866175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &821799896 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6901433948224290334, guid: e4c9640592221344db5d03540a4ce55d, type: 3}
@@ -2276,6 +2281,7 @@ MonoBehaviour:
   move: 0
   speed: 5
   gunFlip: {fileID: 1600211464}
+  bulletPoll: {fileID: 817193237}
 --- !u!114 &1338499739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2303,87 +2309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d572c9647d8fd241a4419a35a6294d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &1338499743 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 3194511964316557176, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
-  m_PrefabInstance: {fileID: 2136866175}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1338499744 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 7776750580240969103, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
-  m_PrefabInstance: {fileID: 2136866175}
-  m_PrefabAsset: {fileID: 0}
---- !u!66 &1338499747
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338499730}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 1
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 1338499744}
-    m_ColliderPaths:
-    - - X: 4112998
-        Y: 4368798
-      - X: -291936
-        Y: 4368798
-      - X: -291936
-        Y: -2054683
-      - X: 4112998
-        Y: -2054683
-  - m_Collider: {fileID: 1338499743}
-    m_ColliderPaths:
-    - - X: 4107468
-        Y: -1248251
-      - X: -4038592
-        Y: -1248251
-      - X: -4038592
-        Y: -4782814
-      - X: 4107468
-        Y: -4782814
-  m_CompositePaths:
-    m_Paths:
-    - - {x: 0.41071752, y: -0.4782814}
-      - {x: 0.4112705, y: 0.4368798}
-      - {x: -0.0291936, y: 0.43685052}
-      - {x: -0.029223, y: -0.124825105}
-      - {x: -0.4038592, y: -0.1248544}
-      - {x: -0.4038299, y: -0.4782814}
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
-  m_UseDelaunayMesh: 0
-  m_CompositeGameObject: {fileID: 1338499730}
 --- !u!1 &1397804133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,6 +2991,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2098251158688881025, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2098251158688881025, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -3079,7 +3008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3194511964316557176, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: m_CompositeOperation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3442950247486387990, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: items
@@ -3155,8 +3084,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7776750580240969103, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: m_CompositeOperation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8605094015612457944, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1600211460}
     - target: {fileID: 8605094015612457944, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: bulletPrefab
       value: 
@@ -3175,13 +3108,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8545228200749966002, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 1338499747}
-    - targetCorrespondingSourceObject: {fileID: 8545228200749966002, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
-      insertIndex: 7
+      insertIndex: 6
       addedObject: {fileID: 1338499739}
     - targetCorrespondingSourceObject: {fileID: 8545228200749966002, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
-      insertIndex: 8
+      insertIndex: 7
       addedObject: {fileID: 1338499738}
     - targetCorrespondingSourceObject: {fileID: 1006828490171824389, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       insertIndex: 2

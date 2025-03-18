@@ -3,7 +3,7 @@ using UnityEngine;
 public class VidaSystem : MonoBehaviour
 {
     public GameManager GameManager;
-    Movimiento mov;
+    Move mov;
     public Animator invul;
 
     public float pushForce = 2f;
@@ -17,7 +17,7 @@ public class VidaSystem : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        mov = GetComponent<Movimiento>();
+        mov = GetComponent<Move>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
