@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.Diagnostics;
 
 public class Movimiento : MonoBehaviour
 {
     float move;
     public int speed;
     public int jumpForce;
-    public int life;
 
     bool isGround;
     bool jump = false;
@@ -15,6 +15,7 @@ public class Movimiento : MonoBehaviour
     Animator anim;
     SpriteRenderer sp;
     public SpriteRenderer gunFlip;
+    public GameObject bulletPoll;
 
     void Start()
     {
@@ -25,22 +26,10 @@ public class Movimiento : MonoBehaviour
 
     private void Update()
     {
-        //Cojo el input de la "A" y la "S" y lo guardo en una variable
+        // Obtiene el input antes de actualizar animaciones
         move = Input.GetAxis("Horizontal");
 
-        //Hago el flip del sprite dependiendo de hacia donde se mueve
-        if (move > 0)
-        {
-            sp.flipX = false;
-            gunFlip.flipX = false;
-        }
-        else if (move < 0)
-        {
-            sp.flipX = true;
-            gunFlip.flipX = true;
-        }
-
-        //Cambio la velocidad para que corra al pulsar shift
+        // Cambio de velocidad al pulsar shift
         if (Input.GetKey(KeyCode.LeftShift) && isGround)
         {
             speed = 6;
@@ -49,61 +38,69 @@ public class Movimiento : MonoBehaviour
         else
         {
             speed = 4;
-            //Activamos la animacion de andar
-            anim.SetFloat("Walk", move);
+            anim.SetFloat("Walk", Mathf.Abs(move)); // Usamos Abs para evitar valores negativos en la animaciÃ³n
         }
 
-        //Si pulsa la tecal espacio cambio el bool a true para añadirle la fuerza en el fixedUpdate
+        // Flip del sprite
+        if (move > 0)
+        {
+            sp.flipX = false;
+            gunFlip.flipX = false;
+            bulletPoll.transform.localPosition = new Vector2(1, 0);
+            bulletPoll.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        else if (move < 0)
+        {
+            sp.flipX = true;
+            gunFlip.flipX = true;
+            bulletPoll.transform.localPosition = new Vector2(-1, 0);
+            bulletPoll.transform.rotation = Quaternion.Euler(0, 180, 0);
+        }
+
+        // Salto
         if (Input.GetKeyDown("space") && isGround)
         {
-            print("pulsa espacio");
             anim.SetTrigger("Jump");
             anim.SetBool("Ground", false);
-            isGround = false;
-            Invoke("Jump", 0.3f);
+            jump = true; // Se procesa en FixedUpdate()
         }
     }
 
     void FixedUpdate()
     {
-        //Añado fuerza para mover el personaje
+        // Movimiento
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
-        //Añado la fuerza del salto
-        if (jump )
+        // Salto
+        if (jump)
         {
-            print("salta");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isGround = false; // Se desactiva solo despuÃ©s de aplicar la fuerza
             jump = false;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Cambio el bool para saber cuando esta tocando el suelo
+        // Detecta cuando toca el suelo
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
             anim.SetBool("Ground", true);
+            CancelInvoke("InAir"); // Cancelamos el Invoke que podrÃ­a desactivar isGround antes de tiempo
         }
+    }
 
-        if (collision.gameObject.CompareTag("Enemigo") && invulnerable == false)
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            life--;
-            invulnerable = true;
-            anim.SetTrigger("Hurt");
-            print(life);
-            Invoke("Hurt", 2);
+            Invoke("InAir", 0.1f);
         }
     }
 
-    public void Jump()
+    public void InAir()
     {
-        jump = true;
-    }
-
-    public void Hurt()
-    {
-        invulnerable = false;
+        isGround = false;
     }
 }

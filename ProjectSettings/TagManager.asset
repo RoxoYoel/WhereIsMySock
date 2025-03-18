@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Gun
   - Enemigo
+  - Death
+  - Checkpoint
+  - Bala
   layers:
   - Default
   - TransparentFX
