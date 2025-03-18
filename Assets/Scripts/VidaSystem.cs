@@ -22,22 +22,20 @@ public class VidaSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemigo") && !invulnerable)
+        if (collision.gameObject.CompareTag("Enemigo"))
         {
-            invulnerable = true;
-            mov.enabled = false;
-            invul.enabled = true;
-            anim.SetTrigger("Hurt");
-            Invoke("Reactivar", 0.5f);
-            Invoke("Hurt", 2.5f);
-            GameManager.Chocar();
-        }
-
-        if (collision.gameObject.CompareTag("Enemigo") && invulnerable)
-        {
-            // Aplicar una fuerza en la dirección opuesta al obstáculo
-            Vector2 pushDirection = (transform.position - collision.transform.position).normalized;
-            rb.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
+            Debug.Log("Colisión detectada con un enemigo");
+            if (!invulnerable)
+            {
+                Debug.Log("El personaje no es invulnerable, aplicando daño");
+                invulnerable = true;
+                mov.enabled = false;
+                invul.enabled = true;
+                anim.SetTrigger("Hurt");
+                Invoke("Reactivar", 0.5f);
+                Invoke("Hurt", 2.5f);
+                GameManager.Chocar();
+            }
         }
     }
 

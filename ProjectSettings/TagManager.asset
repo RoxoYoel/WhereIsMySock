@@ -10,6 +10,8 @@ TagManager:
   - Death
   - Checkpoint
   - Bala
+  - Municion
+  - Enemy
   layers:
   - Default
   - TransparentFX
