@@ -22,7 +22,7 @@ public class VidaSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemigo") && !invulnerable)
+        if (collision.gameObject.CompareTag("Death") && !invulnerable)
         {
             invulnerable = true;
             mov.enabled = false;
@@ -33,7 +33,7 @@ public class VidaSystem : MonoBehaviour
             GameManager.Chocar();
         }
 
-        if (collision.gameObject.CompareTag("Enemigo") && invulnerable)
+        if (collision.gameObject.CompareTag("Death") && invulnerable)
         {
             // Aplicar una fuerza en la dirección opuesta al obstáculo
             Vector2 pushDirection = (transform.position - collision.transform.position).normalized;
