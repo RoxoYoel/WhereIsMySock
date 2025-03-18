@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPool: {fileID: 6178437712133801489}
+  items: {fileID: 0}
 --- !u!1 &1293702045006377534
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPoolSize: 5
-  bullet: {fileID: 1495915110686401420, guid: 4baff3c4a0f7e494c9a8df0145a18687, type: 3}
+  bulletPrefab: {fileID: 0}
   shootNumber: -1
 --- !u!1 &8545228200749966002
 GameObject:
@@ -461,6 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 1006828490171824389}
+  bulletCount: 0
 --- !u!1001 &7072341281118145874
 PrefabInstance:
   m_ObjectHideFlags: 0
