@@ -627,6 +627,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bab9f15e96159414db3c667720fe7ad5, type: 3}
+--- !u!114 &2000978673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8605094015612457944, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
+  m_PrefabInstance: {fileID: 4935395321805648736}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8168bc6bbad51ab48b7dc89150d084ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2002850564 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3267727286396415887, guid: 2909aff53d50a0e49827035bb4567e75, type: 3}
@@ -881,6 +892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 3442950247486387990, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
+      propertyPath: bulletPool
+      value: 
+      objectReference: {fileID: 2000978673}
     - target: {fileID: 7050431676830271401, guid: e756db0f21b37ed4e87349891f27e2a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.48
@@ -986,6 +1001,10 @@ PrefabInstance:
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1259090110}
+    - target: {fileID: 8521165477757370118, guid: 9dbd9c65decc84041a0bbe0fb4d49eb5, type: 3}
+      propertyPath: orthographic size
+      value: 3.75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
