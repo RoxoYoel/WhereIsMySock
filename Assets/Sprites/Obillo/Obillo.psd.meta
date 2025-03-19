@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Obillo_0: -2262052957784179942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
