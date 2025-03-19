@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class VidaSystem : MonoBehaviour
+public class EnemyVidaSystem : MonoBehaviour
 {
     public GameManager GameManager;
     Move mov;
