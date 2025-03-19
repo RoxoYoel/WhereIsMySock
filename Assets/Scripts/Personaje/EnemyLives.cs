@@ -10,6 +10,7 @@ public class EnemyLives : MonoBehaviour
         {
             GameManager.VidasEnemigo();
             enemigo.SetActive(false);
+
         }
     }
 
