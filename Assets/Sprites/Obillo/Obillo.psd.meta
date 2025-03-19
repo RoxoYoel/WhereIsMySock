@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33f8f7e8377117842a135b43499de80b
+guid: 1d73df93c8ade87458f41e958b76541c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7651827757431967338
-    second: Portal19_0
+      213: -2262052957784179942
+    second: Obillo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal19_0
+      name: Obillo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 5
+        y: 3
+        width: 23
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6913bcb123f3fc590800000000000000
-      internalID: -7651827757431967338
+      spriteID: a1bf62cd1d29b90e0800000000000000
+      internalID: -2262052957784179942
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Portal19_0: -7651827757431967338
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

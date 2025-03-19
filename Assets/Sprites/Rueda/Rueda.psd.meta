@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 33f8f7e8377117842a135b43499de80b
+guid: 834314ed7fe454046a5610467457a38b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7651827757431967338
-    second: Portal19_0
+      213: 8111301457765854946
+    second: Rueda_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal19_0
+      name: Rueda_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6913bcb123f3fc590800000000000000
-      internalID: -7651827757431967338
+      spriteID: 2eeed3843b1219070800000000000000
+      internalID: 8111301457765854946
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Portal19_0: -7651827757431967338
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
