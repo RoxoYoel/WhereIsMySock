@@ -13,6 +13,7 @@ TagManager:
   - Municion
   - Enemy
   - Pared
+  - Boton
   layers:
   - Default
   - TransparentFX

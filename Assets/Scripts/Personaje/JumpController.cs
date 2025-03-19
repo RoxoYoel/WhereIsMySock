@@ -6,7 +6,7 @@ public class JumpController : MonoBehaviour
     public int jumpForce;
     public bool isGround;
     public int jumpAttackForce;
-    private bool jumpAttack;
+    public bool jumpAttack;
     private bool jump = false;
     private Rigidbody2D rb;
     private Animator anim;
@@ -30,6 +30,7 @@ public class JumpController : MonoBehaviour
             anim.SetTrigger("GroundPound");
             materialReboteActivado = true;
             EnemigoColliderRebote.SetActive(true);
+           
         }
     }
 
