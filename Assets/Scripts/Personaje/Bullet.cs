@@ -4,6 +4,8 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody2D rb;
+    Vector2 negativo = new Vector2(-1,1);
+    Vector2 direccion;
 
     private void Awake()
     {
@@ -12,12 +14,20 @@ public class Bullet : MonoBehaviour
 
     private void OnEnable()
     {
+        Vector2 comp = transform.localScale;
         // Resetear la velocidad a cero
         rb.linearVelocity = Vector2.zero;
-
-        // Aplicar velocidad en la dirección del "frente" del arma, basado en su rotación
-        Vector2 direction = transform.right;  // "transform.right" es hacia dónde está apuntando el arma
-        rb.linearVelocity = direction * speed;  // Velocidad en esa dirección
+        if (comp == negativo)
+        {
+            direccion = -transform.right;  // "transform.right" es hacia dónde está apuntando el arma
+            rb.linearVelocity = direccion * speed;  // Velocidad en esa dirección
+        }
+        else
+        {
+            // Aplicar velocidad en la dirección del "frente" del arma, basado en su rotación
+            direccion = transform.right;  // "transform.right" es hacia dónde está apuntando el arma
+            rb.linearVelocity = direccion * speed;  // Velocidad en esa dirección 
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
