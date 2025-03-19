@@ -7,9 +7,6 @@ public class BulletPool : MonoBehaviour
     public GameObject bulletPrefab; // Cambiado de 'bullet' a 'bulletPrefab' para mayor claridad
     private GameObject[] bullets;
     public int shootNumber = -1;
-    public GameObject gun;
-    float z;
-    float y;
 
     void Start()
     {
@@ -20,16 +17,6 @@ public class BulletPool : MonoBehaviour
             bullets[i].transform.parent = null;
             bullets[i].SetActive(false);
         }
-
-        
-    }
-
-    private void Update()
-    {
-        z = gun.transform.rotation.z;
-        y = transform.rotation.y;
-
-        
     }
 
     public void ShootBullet()

@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour
         Vector2 comp = transform.localScale;
         // Resetear la velocidad a cero
         rb.linearVelocity = Vector2.zero;
+
         if (comp == negativo)
         {
             direccion = -transform.right;  // "transform.right" es hacia dónde está apuntando el arma
@@ -24,7 +25,6 @@ public class Bullet : MonoBehaviour
         }
         else
         {
-            // Aplicar velocidad en la dirección del "frente" del arma, basado en su rotación
             direccion = transform.right;  // "transform.right" es hacia dónde está apuntando el arma
             rb.linearVelocity = direccion * speed;  // Velocidad en esa dirección 
         }

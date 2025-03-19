@@ -11,7 +11,6 @@ public class Move : MonoBehaviour
     public SpriteRenderer gunFlip;
     public GameObject bulletPoll;
     private JumpController jumpController;
-    public GameObject gun;
 
     void Start()
     {
