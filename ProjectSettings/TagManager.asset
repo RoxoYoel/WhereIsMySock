@@ -12,6 +12,7 @@ TagManager:
   - Bala
   - Municion
   - Enemy
+  - Pared
   layers:
   - Default
   - TransparentFX
