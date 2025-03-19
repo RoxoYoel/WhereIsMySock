@@ -41,5 +41,6 @@ public class AimAtMouseY : MonoBehaviour
 
         // Aplicar la rotación en el eje Z
         transform.Rotate(0, 0, angle);
+
     }
 }
