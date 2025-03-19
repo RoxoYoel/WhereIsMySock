@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: -4956340305479255208}
   - component: {fileID: -3014341552923994788}
   - component: {fileID: 4981563730217420795}
+  - component: {fileID: 2929341604140981225}
   m_Layer: 0
   m_Name: PlataformVentosa
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7389836408995512370
 Transform:
   m_ObjectHideFlags: 0
@@ -182,3 +183,15 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &2929341604140981225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495915110686401420}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26777772204bdb439537e7e9122f48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

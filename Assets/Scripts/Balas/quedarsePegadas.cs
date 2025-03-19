@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class quedarsePegadas : MonoBehaviour
 {
@@ -13,11 +14,10 @@ public class quedarsePegadas : MonoBehaviour
         {
             gameObject.SetActive(false);
             balaNueva.SetActive(true);
-            Instantiate(balaNueva, transform.position, Quaternion.identity);
+            Instantiate(balaNueva, transform.position, Quaternion.identity).transform.localScale = transform.localScale;
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
