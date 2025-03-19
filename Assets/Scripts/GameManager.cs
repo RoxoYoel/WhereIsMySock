@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 
     //VARIABLES PRINCIPALES
     public static int lives = 3;
+    public static int livesEnemy = 1;
     public static float musicVolume;
 
     //canvas
@@ -36,6 +37,11 @@ public class GameManager : MonoBehaviour
     public void Update()
     {
 
+    }
+    public void VidasEnemigo()
+    {
+        livesEnemy--;
+        Debug.Log("Vidas restantes: " + livesEnemy);
     }
     public void Chocar()
     {

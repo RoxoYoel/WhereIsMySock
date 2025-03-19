@@ -13,7 +13,7 @@ public class VidaSystem : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
 
-    public void Start ()
+    public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -31,7 +31,6 @@ public class VidaSystem : MonoBehaviour
             Invoke("Reactivar", 0.5f);
             Invoke("Hurt", 2.5f);
             GameManager.Chocar();
-            
         }
 
         if (collision.gameObject.CompareTag("Death") && invulnerable)
@@ -41,7 +40,7 @@ public class VidaSystem : MonoBehaviour
             rb.AddForce(pushDirection * pushForce, ForceMode2D.Impulse);
         }
     }
-    private void OnTriggerStay2D (Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Death") && !invulnerable)
         {
