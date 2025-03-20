@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PolillaIdle0039_0: 342321899297294158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

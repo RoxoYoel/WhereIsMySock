@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TermitaWalking0010_0: 3245864667408863013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

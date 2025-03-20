@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ZombieSockIdle0003_0: 7975203533559516954
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

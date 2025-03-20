@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RataWalking0042_0: -1478904104819525081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
