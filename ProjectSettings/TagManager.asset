@@ -14,6 +14,7 @@ TagManager:
   - Enemy
   - Pared
   - Boton
+  - Boton2
   layers:
   - Default
   - TransparentFX
