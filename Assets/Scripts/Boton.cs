@@ -3,10 +3,12 @@ using UnityEngine;
 public class Boton : MonoBehaviour
 {
     public Animator animBoton;
+    public Animator animBoton2;
     public JumpController jumpController;
 
     //private bool playerInRange = false;
     public Animator gearAnim;
+    public Animator gearAnim2;
     void Start()
     {
        // LeverCanvas.SetActive(false);
@@ -23,9 +25,9 @@ public class Boton : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Boton2") && jumpController.jumpAttack)
         {
-            animBoton.SetBool("Presionado", true);
+            animBoton2.SetBool("Presionado", true);
             Debug.Log("Palanca activada");
-            gearAnim.Play("Gear4");
+            gearAnim2.Play("GearSpin2");
 
         }
     }
