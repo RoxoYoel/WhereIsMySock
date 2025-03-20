@@ -995,7 +995,7 @@ TextureImporter:
       name: TilePalete_10
       rect:
         serializedVersion: 2
-        x: 376
+        x: 342
         y: 478
         width: 32
         height: 32
@@ -1017,7 +1017,7 @@ TextureImporter:
       name: TilePalete_11
       rect:
         serializedVersion: 2
-        x: 410
+        x: 376
         y: 478
         width: 32
         height: 32
@@ -1039,7 +1039,7 @@ TextureImporter:
       name: TilePalete_12
       rect:
         serializedVersion: 2
-        x: 444
+        x: 410
         y: 478
         width: 32
         height: 32
@@ -1061,8 +1061,8 @@ TextureImporter:
       name: TilePalete_13
       rect:
         serializedVersion: 2
-        x: 2
-        y: 444
+        x: 444
+        y: 478
         width: 32
         height: 32
       alignment: 0
@@ -1083,8 +1083,8 @@ TextureImporter:
       name: TilePalete_14
       rect:
         serializedVersion: 2
-        x: 36
-        y: 444
+        x: 478
+        y: 478
         width: 32
         height: 32
       alignment: 0
@@ -1105,7 +1105,7 @@ TextureImporter:
       name: TilePalete_15
       rect:
         serializedVersion: 2
-        x: 70
+        x: 2
         y: 444
         width: 32
         height: 32
@@ -1127,7 +1127,7 @@ TextureImporter:
       name: TilePalete_16
       rect:
         serializedVersion: 2
-        x: 104
+        x: 36
         y: 444
         width: 32
         height: 32
@@ -1149,7 +1149,7 @@ TextureImporter:
       name: TilePalete_17
       rect:
         serializedVersion: 2
-        x: 138
+        x: 70
         y: 444
         width: 32
         height: 32
@@ -1171,7 +1171,7 @@ TextureImporter:
       name: TilePalete_18
       rect:
         serializedVersion: 2
-        x: 172
+        x: 104
         y: 444
         width: 32
         height: 32
@@ -1193,7 +1193,7 @@ TextureImporter:
       name: TilePalete_19
       rect:
         serializedVersion: 2
-        x: 206
+        x: 138
         y: 444
         width: 32
         height: 32
@@ -1215,7 +1215,7 @@ TextureImporter:
       name: TilePalete_20
       rect:
         serializedVersion: 2
-        x: 240
+        x: 172
         y: 444
         width: 32
         height: 32
@@ -1237,7 +1237,7 @@ TextureImporter:
       name: TilePalete_21
       rect:
         serializedVersion: 2
-        x: 274
+        x: 206
         y: 444
         width: 32
         height: 32
@@ -1259,7 +1259,7 @@ TextureImporter:
       name: TilePalete_22
       rect:
         serializedVersion: 2
-        x: 308
+        x: 240
         y: 444
         width: 32
         height: 32
@@ -1281,8 +1281,8 @@ TextureImporter:
       name: TilePalete_23
       rect:
         serializedVersion: 2
-        x: 2
-        y: 410
+        x: 274
+        y: 444
         width: 32
         height: 32
       alignment: 0
@@ -1303,8 +1303,8 @@ TextureImporter:
       name: TilePalete_24
       rect:
         serializedVersion: 2
-        x: 36
-        y: 410
+        x: 308
+        y: 444
         width: 32
         height: 32
       alignment: 0
@@ -1325,8 +1325,8 @@ TextureImporter:
       name: TilePalete_25
       rect:
         serializedVersion: 2
-        x: 70
-        y: 410
+        x: 376
+        y: 444
         width: 32
         height: 32
       alignment: 0
@@ -1347,8 +1347,8 @@ TextureImporter:
       name: TilePalete_26
       rect:
         serializedVersion: 2
-        x: 104
-        y: 410
+        x: 478
+        y: 444
         width: 32
         height: 32
       alignment: 0
@@ -1369,7 +1369,7 @@ TextureImporter:
       name: TilePalete_27
       rect:
         serializedVersion: 2
-        x: 138
+        x: 2
         y: 410
         width: 32
         height: 32
@@ -1391,8 +1391,8 @@ TextureImporter:
       name: TilePalete_28
       rect:
         serializedVersion: 2
-        x: 2
-        y: 376
+        x: 36
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1413,8 +1413,8 @@ TextureImporter:
       name: TilePalete_29
       rect:
         serializedVersion: 2
-        x: 36
-        y: 376
+        x: 70
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1435,8 +1435,8 @@ TextureImporter:
       name: TilePalete_30
       rect:
         serializedVersion: 2
-        x: 70
-        y: 376
+        x: 104
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1457,8 +1457,8 @@ TextureImporter:
       name: TilePalete_31
       rect:
         serializedVersion: 2
-        x: 104
-        y: 376
+        x: 138
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1479,8 +1479,8 @@ TextureImporter:
       name: TilePalete_32
       rect:
         serializedVersion: 2
-        x: 138
-        y: 376
+        x: 172
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1501,8 +1501,8 @@ TextureImporter:
       name: TilePalete_33
       rect:
         serializedVersion: 2
-        x: 172
-        y: 376
+        x: 206
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1523,8 +1523,8 @@ TextureImporter:
       name: TilePalete_34
       rect:
         serializedVersion: 2
-        x: 2
-        y: 342
+        x: 240
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1545,8 +1545,8 @@ TextureImporter:
       name: TilePalete_35
       rect:
         serializedVersion: 2
-        x: 36
-        y: 342
+        x: 274
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1567,8 +1567,8 @@ TextureImporter:
       name: TilePalete_36
       rect:
         serializedVersion: 2
-        x: 70
-        y: 342
+        x: 376
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1589,8 +1589,8 @@ TextureImporter:
       name: TilePalete_37
       rect:
         serializedVersion: 2
-        x: 104
-        y: 342
+        x: 410
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1611,8 +1611,8 @@ TextureImporter:
       name: TilePalete_38
       rect:
         serializedVersion: 2
-        x: 138
-        y: 342
+        x: 444
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1633,8 +1633,8 @@ TextureImporter:
       name: TilePalete_39
       rect:
         serializedVersion: 2
-        x: 2
-        y: 308
+        x: 478
+        y: 410
         width: 32
         height: 32
       alignment: 0
@@ -1656,7 +1656,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2
-        y: 274
+        y: 376
         width: 32
         height: 32
       alignment: 0
@@ -1677,8 +1677,8 @@ TextureImporter:
       name: TilePalete_41
       rect:
         serializedVersion: 2
-        x: 2
-        y: 240
+        x: 36
+        y: 376
         width: 32
         height: 32
       alignment: 0
@@ -1691,6 +1691,1018 @@ TextureImporter:
       bones: []
       spriteID: 276d8ec0aa706a540800000000000000
       internalID: 5018707261693417074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d5cc6afeb060b429f433d728780afb
+      internalID: 1192068450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38583e92d78cefc47b99348a4dc02c14
+      internalID: -1646138443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed53f601b1c18f478b42de59ac2958d
+      internalID: -1900769460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c21ee3b535f0f45b4150adec085be4
+      internalID: 2026794752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73ed92a8bfaef744ab4056668ea02a1
+      internalID: 1318962940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd035e518bc7b446befde499b10e465
+      internalID: 1541708073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dfc0f85f647e64ea6b1808d3afa286
+      internalID: 45681167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_49
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a148d4031733c84092508ec307af8ce
+      internalID: -252693962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_50
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cbae5ebea49e942934814008f3e125
+      internalID: -976609486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_51
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd4efd30f6bc2447a928bd33b4c4d70
+      internalID: 689800671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_52
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34594fe87b830147bf08ee03c58fda3
+      internalID: 1205857278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_53
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c37a1b417c9540b9ed31d2ce38977
+      internalID: -430149215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_54
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefa6b8a80ef73f419c14ee003d8c902
+      internalID: -670566506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_55
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdab394aea25e145acb9a03b62284eb
+      internalID: 421971545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_56
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198fa215d5c7a04e952c8518eb08703
+      internalID: -1042927228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_57
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b3093ab7ac11c4bb3dceb48162d5d3
+      internalID: -1204727893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_58
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03111f1490774c40bb2f9ce205b4a46
+      internalID: -1653008902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_59
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f420e6ee17194684f884bc0083dfc0fc
+      internalID: 2043616441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_60
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1529e06dd1f564eb13955447a4adda
+      internalID: -818845599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0956a22625eb6414ea0d45ebc6f3f684
+      internalID: -1882258616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_62
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f00f24fb709abc4183f7fe838c7b72a
+      internalID: -1468762716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_63
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ec8f80cb4e9d64aa3da9b5e7881bf3
+      internalID: 375418099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_64
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e819adf204334014bb625bc6d643f124
+      internalID: -2077866644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_65
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78619112c7fc614288c61a1f25a2551
+      internalID: -2146734544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_66
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 342
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0815cac6ae41e5a4693cea3e0743bc85
+      internalID: 222118420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d77ea5728badbe47802d5bf98f012e1
+      internalID: -1204457088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_68
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6360964e518cc4e816490aff1e5c3d
+      internalID: 453122337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_69
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6220b834d001af49b80002dcbb4742e
+      internalID: 676182849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_70
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc766b97498d542892d207bc29be40
+      internalID: 644573697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e13eb843277ac438362cbb7f6fa66c
+      internalID: -1185181180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_72
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ca8721cb12abd47beadc656017d01e
+      internalID: -1509330394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_73
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 308
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882703182622bfd45a35fe1608e4a41a
+      internalID: 745384827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_74
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863fd4b5c10673449a32f7cc659ddd66
+      internalID: 289304031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_75
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56bc33dc6c6d04797728fe6b1752ea
+      internalID: 1297968730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcef865bcc89a9c49927402c7775ff47
+      internalID: -732241583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_77
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad3c4befc2a8349877de93eb049c41
+      internalID: 848522613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_78
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c28a7ee632744eb9bf67072d48777
+      internalID: -1767939201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447ca8595cca6ee42a42e0304067ccc5
+      internalID: 1773111767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_80
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28551bdf1d1cc2a4fa6cb8b520ecbf7b
+      internalID: -842669470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_81
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30917768de992b428831aefb95ba0f3
+      internalID: -796212456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62045aeb808a64ab5866dd47788b9a
+      internalID: -1399925308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_83
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 240
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480fbab834452074fbd7bb4f44cfdb5b
+      internalID: -2070170272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_84
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 206
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980ecd2e84713c94bb6840fbf903671c
+      internalID: -684373211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_85
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 206
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d04d745a3ad36408a3d17dd208705a
+      internalID: -1418486984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_86
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 206
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc47b7608caac4c82f4e8773cafffb
+      internalID: -874791097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePalete_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 206
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10774d21dd8dba44c8224d792a31e9fa
+      internalID: 1935308878
       vertices: []
       indices: 
       edges: []
@@ -1746,10 +2758,56 @@ TextureImporter:
       TilePalete_4: -6309234292482980114
       TilePalete_40: 4884482339123879995
       TilePalete_41: 5018707261693417074
+      TilePalete_42: 1192068450
+      TilePalete_43: -1646138443
+      TilePalete_44: -1900769460
+      TilePalete_45: 2026794752
+      TilePalete_46: 1318962940
+      TilePalete_47: 1541708073
+      TilePalete_48: 45681167
+      TilePalete_49: -252693962
       TilePalete_5: 8084236805777371828
+      TilePalete_50: -976609486
+      TilePalete_51: 689800671
+      TilePalete_52: 1205857278
+      TilePalete_53: -430149215
+      TilePalete_54: -670566506
+      TilePalete_55: 421971545
+      TilePalete_56: -1042927228
+      TilePalete_57: -1204727893
+      TilePalete_58: -1653008902
+      TilePalete_59: 2043616441
       TilePalete_6: -6212369222687227715
+      TilePalete_60: -818845599
+      TilePalete_61: -1882258616
+      TilePalete_62: -1468762716
+      TilePalete_63: 375418099
+      TilePalete_64: -2077866644
+      TilePalete_65: -2146734544
+      TilePalete_66: 222118420
+      TilePalete_67: -1204457088
+      TilePalete_68: 453122337
+      TilePalete_69: 676182849
       TilePalete_7: -7089092340792577508
+      TilePalete_70: 644573697
+      TilePalete_71: -1185181180
+      TilePalete_72: -1509330394
+      TilePalete_73: 745384827
+      TilePalete_74: 289304031
+      TilePalete_75: 1297968730
+      TilePalete_76: -732241583
+      TilePalete_77: 848522613
+      TilePalete_78: -1767939201
+      TilePalete_79: 1773111767
       TilePalete_8: 8971958944839185942
+      TilePalete_80: -842669470
+      TilePalete_81: -796212456
+      TilePalete_82: -1399925308
+      TilePalete_83: -2070170272
+      TilePalete_84: -684373211
+      TilePalete_85: -1418486984
+      TilePalete_86: -874791097
+      TilePalete_87: 1935308878
       TilePalete_9: 6030499103848818627
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
