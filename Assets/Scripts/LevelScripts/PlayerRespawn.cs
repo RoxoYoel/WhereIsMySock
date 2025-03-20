@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerRespawn : MonoBehaviour
 {
     private Vector2 puntoRespawn;
+    public VidaSystem vs;
 
     void Start()
     {
@@ -28,6 +29,7 @@ public void ActualizarCheckpoint(Vector2 nuevaPosicion)
         {
             Debug.Log("Jugador cayó en la zona de muerte");
             ReiniciarPosicion();
+            vs.RecivirDamage();
         }
     }
 }

@@ -22,19 +22,12 @@ public class VidaSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Death") && !invulnerable)
+        if (collision.gameObject.CompareTag("Enemigo") && !invulnerable)
         {
-            invulnerable = true;
-            mov.enabled = false;
-            invul.enabled = true;
-            anim.SetTrigger("Hurt");
-            Invoke("Reactivar", 0.5f);
-            Invoke("Hurt", 2.5f);
-            GameManager.Chocar();
-            
+            RecivirDamage();
         }
 
-        if (collision.gameObject.CompareTag("Death") && invulnerable)
+        if (collision.gameObject.CompareTag("Enemigo") && invulnerable)
         {
             // Aplicar una fuerza en la dirección opuesta al obstáculo
             Vector2 pushDirection = (transform.position - collision.transform.position).normalized;
@@ -43,16 +36,21 @@ public class VidaSystem : MonoBehaviour
     }
     private void OnTriggerStay2D (Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Death") && !invulnerable)
+        if (collision.gameObject.CompareTag("Enemigo") && !invulnerable)
         {
-            invulnerable = true;
-            mov.enabled = false;
-            invul.enabled = true;
-            anim.SetTrigger("Hurt");
-            Invoke("Reactivar", 0.5f);
-            Invoke("Hurt", 2.5f);
-            GameManager.Chocar();
+            RecivirDamage();
         }
+    }
+
+    public void RecivirDamage()
+    {
+        invulnerable = true;
+        mov.enabled = false;
+        invul.enabled = true;
+        anim.SetTrigger("Hurt");
+        Invoke("Reactivar", 0.5f);
+        Invoke("Hurt", 2.5f);
+        GameManager.Chocar();
     }
 
     public void Reactivar()
