@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     }
     public void Start()
     {
-
+        GameOver.SetActive(false);
     }
     public void Update()
     {
@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Game Over");
             GameOver.SetActive(true);
+            Time.timeScale = 0;
         }
         else
         {
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentScene);
+        Time.timeScale = 1;
     }
 
     public void Reanude()
@@ -87,6 +89,7 @@ public class GameManager : MonoBehaviour
     public void CambioEscenaMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1; 
     }
     public void CambioEscena0()
     {
