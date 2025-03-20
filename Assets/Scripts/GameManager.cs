@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         GameOver.SetActive(false);
+        completeLevelUI.SetActive(false);
     }
     public void Update()
     {
@@ -79,6 +80,7 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
+        
         completeLevelUI.SetActive(true);
         Time.timeScale = 0;
     }
