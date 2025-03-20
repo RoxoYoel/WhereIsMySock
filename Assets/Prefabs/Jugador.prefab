@@ -591,7 +591,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animBoton: {fileID: 0}
+  animBoton2: {fileID: 0}
   jumpController: {fileID: 1412781505626829558}
+  gearAnim: {fileID: 0}
+  gearAnim2: {fileID: 0}
 --- !u!61 &3194511964316557176
 BoxCollider2D:
   m_ObjectHideFlags: 0
