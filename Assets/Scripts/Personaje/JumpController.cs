@@ -88,8 +88,13 @@ public class JumpController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             jumpAttack = false;
-            isGround = false;
+            //Invoke("SalirSuelo", 1);
             anim.SetBool("Ground", false);  // Actualiza el booleano en el Animator
         }
+    }
+
+    public void SalirSuelo()
+    {
+        isGround = false;
     }
 }
