@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3014341552923994788}
   - component: {fileID: 4981563730217420795}
   - component: {fileID: 2929341604140981225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlataformVentosa
   m_TagString: Ground
   m_Icon: {fileID: 0}
