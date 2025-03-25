@@ -654,12 +654,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 8
-  isGround: 0
   jumpAttackForce: 9
-  jumpAttack: 0
   materialRebote: {fileID: 6200000, guid: ffa4842b2c75fd94485f72431e40e9dc, type: 2}
   materialNoFriction: {fileID: 6200000, guid: c7701dd98d604764083a2e192393f35d, type: 2}
   EnemigoColliderRebote: {fileID: 0}
+  groundCheckDistance: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheckOffsetFront: {x: 0, y: 0}
+  groundCheckOffsetBack: {x: 0, y: 0}
+  isGround: 0
+  jumpAttack: 0
 --- !u!114 &6088210554308447520
 MonoBehaviour:
   m_ObjectHideFlags: 0
