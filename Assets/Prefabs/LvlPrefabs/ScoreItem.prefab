@@ -149,6 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c9fb94143559c4d9066601f8f3d5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  canvasUI: {fileID: 0}
 --- !u!95 &2026753370495167453
 Animator:
   serializedVersion: 7
